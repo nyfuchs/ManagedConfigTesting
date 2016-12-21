@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<restrictions xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <restriction
+        android:key="config_list"
+        android:title="@string/config_list_title"
+        android:restrictionType="bundle_array"
+        android:description="@string/config_list_description">
+        <restriction
+            android:key="config"
+            android:title="@string/config_title"
+            android:restrictionType="bundle"
+            android:description="@string/config_description">
+            <restriction
+                android:key="server"
+                android:title="@string/server_title"
+                android:restrictionType="string"
+                android:description="@string/server_description"/>
+            <restriction
+                android:key="username"
+                android:title="@string/username_title"
+                android:restrictionType="string"
+                android:description="@string/username_description"/>
+            <restriction
+                android:key="password"
+                android:title="@string/password_title"
+                android:restrictionType="string"
+                android:description="@string/password_description"/>
+
+        </restriction>
+    </restriction>
+</restrictions>

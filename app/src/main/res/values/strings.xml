@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ManagedConfigTesting</string>
+    <string name="config_list_title">Configurations List</string>
+    <string name="config_title">Configurations</string>
+    <string name="username_title">Username</string>
+    <string name="password_title">Password</string>
+    <string name="server_title">Server</string>
+    <string name="config_list_description">Full list of all configuration sets</string>
+    <string name="config_description">One set of configurations</string>
+    <string name="username_description">username for login</string>
+    <string name="password_description">password for login</string>
+    <string name="server_description">tenant server</string>
+    <string name="label_connection_service">My Connection Service</string>
+</resources>
